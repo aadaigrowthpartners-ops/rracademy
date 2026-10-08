@@ -35,7 +35,8 @@
             
             <div id="popupStatus" class="alert d-none mb-3" role="alert"></div>
             
-            <form id="enquiryForm" method="POST" action="enquiry_submit.php" novalidate>
+            <form id="enquiryForm" method="POST" action="https://api.web3forms.com/submit" novalidate>
+                <input type="hidden" name="access_key" value="5b14fac7-d015-47d3-9a68-256c8818d38d">
                 <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                 <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
                 <input type="email" name="email" class="form-control" placeholder="Email Address" required>

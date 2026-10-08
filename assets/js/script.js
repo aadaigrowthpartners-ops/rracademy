@@ -111,7 +111,7 @@ function setStatus(elementId, type, message) {
 
             const data = await res.json().catch(() => null);
 
-            if (res.ok && data && data.ok) {
+            if (res.ok && data && (data.ok || data.success)) {
                 setStatus('popupStatus', 'success', data.message);
                 form.reset();
                 setTimeout(() => closePopup(), 3000);
@@ -164,7 +164,7 @@ function setStatus(elementId, type, message) {
 
             const data = await res.json().catch(() => null);
 
-            if (res.ok && data && data.ok) {
+            if (res.ok && data && (data.ok || data.success)) {
                 setStatus('contactStatus', 'success', data.message);
                 form.reset();
             } else {
@@ -218,7 +218,7 @@ function setStatus(elementId, type, message) {
 
             const data = await res.json().catch(() => null);
 
-            if (res.ok && data && data.ok) {
+            if (res.ok && data && (data.ok || data.success)) {
                 setStatus('admissionStatus', 'success', data.message);
                 form.reset();
                 statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
