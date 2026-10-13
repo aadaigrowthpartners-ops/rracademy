@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use | Sri RR Academy</title>
+    <meta name="description" content="Terms of Use and Conditions for Sri RR Academy. Review our admission rules, course fee policies, intellectual property rights, student conduct, and communication guidelines.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#1e40af">
+    <meta name="msapplication-TileColor" content="#1e40af">
+    <meta name="theme-color" content="#1e40af">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+        .terms-container {
+            padding: 70px 0 90px;
+            background: #f8fafc;
+        }
+        .terms-card {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+            border: 1px solid #e2e8f0;
+            padding: 45px;
+            margin-bottom: 30px;
+        }
+        .terms-meta-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(30, 64, 175, 0.08);
+            color: var(--primary-color);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        .terms-section-title {
+            color: var(--primary-color);
+            font-size: 1.35rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 35px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f1f5f9;
+        }
+        .terms-section-title:first-of-type {
+            margin-top: 10px;
+        }
+        .terms-section-title i {
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+            width: 24px;
+            text-align: center;
+        }
+        .terms-card p {
+            color: #475569;
+            font-size: 0.98rem;
+            line-height: 1.75;
+            margin-bottom: 16px;
+        }
+        .terms-card ul {
+            color: #475569;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .terms-card ul li {
+            margin-bottom: 10px;
+            line-height: 1.65;
+            font-size: 0.98rem;
+        }
+        .terms-highlight-box {
+            background: linear-gradient(135deg, rgba(30, 64, 175, 0.04) 0%, rgba(14, 165, 233, 0.06) 100%);
+            border-left: 4px solid var(--primary-color);
+            border-radius: 12px;
+            padding: 22px 26px;
+            margin: 24px 0;
+        }
+        .terms-highlight-box h5 {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.05rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .terms-highlight-box p {
+            margin-bottom: 0;
+            font-size: 0.94rem;
+        }
+        .terms-warning-box {
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            border-radius: 12px;
+            padding: 22px 26px;
+            margin: 24px 0;
+        }
+        .terms-warning-box h5 {
+            color: #b45309;
+            font-weight: 700;
+            font-size: 1.05rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .terms-warning-box p {
+            color: #78350f;
+            margin-bottom: 0;
+            font-size: 0.94rem;
+        }
+        .contact-box-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .contact-box-item {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            transition: all 0.3s ease;
+        }
+        .contact-box-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+            border-color: var(--primary-color);
+        }
+        .contact-box-item i {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin-top: 4px;
+        }
+        .contact-box-item h6 {
+            font-size: 0.92rem;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+        .contact-box-item p {
+            color: var(--dark-color);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+        .contact-box-item a {
+            color: var(--dark-color);
+            text-decoration: none;
+        }
+        .contact-box-item a:hover {
+            color: var(--primary-color);
+        }
+        @media (max-width: 768px) {
+            .terms-card {
+                padding: 25px 20px;
+            }
+            .terms-section-title {
+                font-size: 1.15rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <a href="tel:+919751699922"><i class="fas fa-phone"></i>+91 97516 99922</a>
+                    <a href="mailto:support@srirracademy.com"><i class="fas fa-envelope"></i> support@srirracademy.com</a>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="https://www.facebook.com/srirracademy" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/srirracademy" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/srirracademy" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/@SRIRRACADEMY" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo-container logo-container--img">
+                        <img src="assets/image/logo.png" alt="Sri RR Academy">
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-name">Sri RR Academy</span>
+                        <span class="brand-tagline">Read and Rule</span>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="d-flex gap-2">
+                        <a href="admission.html" class="btn-primary-custom">Admission Form</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <div class="page-banner-content" data-aos="fade-up">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Terms of Use</li>
+                    </ol>
+                </nav>
+                <h1>Terms of Use</h1>
+                <p>Rules, enrollment policies, intellectual property guidelines, and communication terms governing Sri RR Academy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms Content Section -->
+    <section class="terms-container">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10" data-aos="fade-up">
+                    <div class="terms-card">
+                        
+                        <div class="terms-meta-pill">
+                            <i class="fas fa-file-contract"></i> Effective Date: October 13, 2026 | Last Updated: October 13, 2026
+                        </div>
+
+                        <p>Welcome to <strong>Sri RR Academy</strong> ("Academy," "we," "our," or "us"). By visiting or using our website (<a href="https://srirracademy.com" target="_blank" style="color: var(--primary-color); font-weight: 600;">srirracademy.com</a>), registering for courses, submitting admission or enquiry forms, or communicating with us via phone, email, or our official WhatsApp channel, you agree to be legally bound by these Terms of Use.</p>
+                        
+                        <p>If you do not agree with any part of these Terms, please do not use our website or enroll in our programs. For details regarding how we collect and process your personal data, please review our <a href="privacy-policy.html" style="color: var(--primary-color); font-weight: 600;">Privacy Policy</a>.</p>
+
+                        <!-- Section 1 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-user-check"></i> 1. Eligibility & Accuracy of Information
+                        </h2>
+                        <p>When inquiring about or applying for admission to our competitive examination coaching programs (including TNPSC Group 4, Group 2, RRB NTPC/Group D, Banking, SSC, Police & Defence, and TET/TRB), you agree to:</p>
+                        <ul>
+                            <li>Provide true, accurate, current, and complete details regarding your identity, contact information, and educational qualifications.</li>
+                            <li>Promptly notify the Academy of any changes to your phone number, email address, or residential contact information.</li>
+                            <li>Ensure that you meet the educational and age eligibility criteria prescribed by the respective official recruitment commissions for the exams you prepare for.</li>
+                        </ul>
+
+                        <!-- Section 2 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-graduation-cap"></i> 2. Course Admission, Batches & Timings
+                        </h2>
+                        <p>Admission to coaching courses at Sri RR Academy is subject to seat availability, verification of application details, and timely payment of fees:</p>
+                        <ul>
+                            <li><strong>Batch Allotment:</strong> Students are allocated to batches (Morning, Evening, Regular, or Weekend) based on availability and academic scheduling. Requests for batch transfers are subject to management approval.</li>
+                            <li><strong>Timetable & Schedule Adjustments:</strong> The Academy reserves the right to modify class timetables, adjust batch hours, conduct extra revision sessions, or schedule special mock tests to align with official government exam dates.</li>
+                            <li><strong>Faculty Assignment:</strong> Experienced faculty and subject experts are assigned at the discretion of the Academy management to provide optimal pedagogical support.</li>
+                        </ul>
+
+                        <!-- Section 3 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-rupee-sign"></i> 3. Fee Structure, Payment & Refund Policy
+                        </h2>
+                        <div class="terms-warning-box">
+                            <h5><i class="fas fa-exclamation-triangle"></i> Important Notice on Course Fees & Refunds</h5>
+                            <p>Course fees must be paid in full or according to the agreed payment schedule prior to or at the commencement of coaching. Once admission is confirmed and batch classes have commenced, fees paid are <strong>non-refundable and non-transferable</strong> under any circumstances.</p>
+                        </div>
+                        <ul>
+                            <li><strong>Payment Confirmation:</strong> Official receipts are issued for all fees received. Students are advised to retain their fee receipts throughout the course duration.</li>
+                            <li><strong>Installment Schedules:</strong> Where installment facilities are approved, failure to pay subsequent installments by the due date may result in suspension of classroom access, test series portal privileges, or course materials.</li>
+                            <li><strong>Administrative Decisions:</strong> In rare cases of duplicate payment due to electronic gateway errors, refunds will be processed back to the original source method after administrative verification within 7-10 working days.</li>
+                        </ul>
+
+                        <!-- Section 4 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-book-reader"></i> 4. Intellectual Property & Study Materials
+                        </h2>
+                        <p>All materials provided by Sri RR Academy—including printed study modules, question banks, mock test papers, class handouts, curriculum frameworks, test series solutions, logos, website design, and proprietary pedagogy—are protected under Indian Copyright and Intellectual Property laws:</p>
+                        <ul>
+                            <li><strong>Personal Educational Use Only:</strong> Study materials are provided solely for the personal, non-commercial educational use of enrolled students.</li>
+                            <li><strong>Strict Prohibition on Reproduction:</strong> Students and visitors are strictly prohibited from photocopying, photographing, recording lectures, digitizing, distributing, republishing, selling, or uploading Academy materials to any social media platform, Telegram channel, YouTube, or file-sharing site.</li>
+                            <li><strong>Legal Recourse:</strong> Any unauthorized commercial exploitation or infringement of Sri RR Academy's intellectual property will result in immediate termination of admission and strict legal action.</li>
+                        </ul>
+
+                        <!-- Section 5 -->
+                        <h2 class="terms-section-title">
+                            <i class="fab fa-whatsapp"></i> 5. WhatsApp & Communication Acceptable Use
+                        </h2>
+                        <p>Our official WhatsApp numbers (<strong>+91 90032 44002</strong> and <strong>+91 97516 99922</strong>) are dedicated communication channels provided for student queries, course consultation, timetable broadcasts, and academic assistance:</p>
+                        <div class="terms-highlight-box">
+                            <h5><i class="fas fa-comments"></i> Guidelines for WhatsApp & Helpline Communication</h5>
+                            <p>All messages sent to our helplines must be respectful and relevant to academic, admission, or coaching queries. The transmission of spam, offensive language, abusive remarks, promotional solicitations, or irrelevant media is strictly prohibited.</p>
+                        </div>
+                        <ul>
+                            <li>Misuse of our WhatsApp channels or harassment of support staff will lead to immediate blocking and cancellation of services.</li>
+                            <li>WhatsApp messages are monitored during business hours (Mon-Sun: 7:00 AM - 9:00 PM). Urgent admission queries are addressed in the order received.</li>
+                            <li>For details on message frequency, notifications, and how to opt out (by replying <strong>"STOP"</strong>), please refer to our <a href="privacy-policy.html" style="color: var(--primary-color); font-weight: 600;">Privacy Policy</a>.</li>
+                        </ul>
+
+                        <!-- Section 6 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-balance-scale"></i> 6. Academic Disclaimer & Government Job Results
+                        </h2>
+                        <p>Sri RR Academy takes pride in our 15+ years of coaching excellence, structured syllabus coverage, and 250+ successful placements. However, students and parents should understand:</p>
+                        <ul>
+                            <li><strong>Mentorship & Training Role:</strong> Our coaching programs provide comprehensive academic preparation, test practice, syllabus breakdown, and interview guidance.</li>
+                            <li><strong>No Guarantee of Appointment:</strong> Sri RR Academy does <strong>not</strong> guarantee selection, recruitment, or government job appointment. Final recruitment selections are made strictly by statutory exam bodies (TNPSC, IBPS, RRB, SSC, TNUSRB, etc.) on the basis of candidate merit, official exam cut-offs, vacancies, and personal performance.</li>
+                            <li><strong>Student Effort:</strong> Examination success depends primarily on the consistent hard work, regular test attendance, discipline, and personal dedication of the student.</li>
+                        </ul>
+
+                        <!-- Section 7 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-user-shield"></i> 7. Student Code of Conduct & Classroom Discipline
+                        </h2>
+                        <p>To preserve a productive and focused academic environment, every student at Sri RR Academy is required to adhere to our code of conduct:</p>
+                        <ul>
+                            <li>Maintain punctuality for class batches and weekly mock test sessions.</li>
+                            <li>Treat fellow students, faculty members, and administrative staff with dignity and courtesy.</li>
+                            <li>Mobile phones must be kept on silent mode inside classrooms and study halls.</li>
+                            <li>Any form of misconduct, malpractice during mock tests, disruption of lectures, or property damage will result in immediate suspension or expulsion without refund.</li>
+                        </ul>
+
+                        <!-- Section 8 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-globe"></i> 8. Website Use & External Links
+                        </h2>
+                        <p>The content on <a href="https://srirracademy.com" target="_blank" style="color: var(--primary-color);">srirracademy.com</a> is provided for general informational and educational purposes:</p>
+                        <ul>
+                            <li>While we make every effort to keep exam notification dates and syllabus details accurate and up to date, students are advised to also verify official notifications published on official recruiting authority websites (e.g., tnpsc.gov.in, ssc.gov.in, ibps.in).</li>
+                            <li>Our website may contain links to external governmental or informative websites. Sri RR Academy is not responsible for the availability, content, or practices of third-party external portals.</li>
+                        </ul>
+
+                        <!-- Section 9 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-shield-alt"></i> 9. Limitation of Liability
+                        </h2>
+                        <p>To the maximum extent permitted under applicable law, Sri RR Academy, its founders, faculty, and affiliates shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our website, temporary website downtime, or changes in official government recruitment exam schedules.</p>
+
+                        <!-- Section 10 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-gavel"></i> 10. Governing Law & Jurisdiction
+                        </h2>
+                        <p>These Terms of Use and any disputes relating to admissions, course fees, or academy services shall be governed by and construed in accordance with the laws of <strong>India</strong>. Any legal proceedings or dispute resolutions shall be subject to the exclusive jurisdiction of the competent civil courts situated in <strong>Madurai, Tamil Nadu</strong>.</p>
+
+                        <!-- Section 11 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-sync-alt"></i> 11. Amendments to Terms
+                        </h2>
+                        <p>We reserve the right to revise or update these Terms of Use at any time. Any changes will become effective immediately upon posting on this page. We encourage you to review this page periodically to stay informed of our latest policies.</p>
+
+                        <!-- Section 12 -->
+                        <h2 class="terms-section-title">
+                            <i class="fas fa-address-book"></i> 12. Contact & Grievance Redressal
+                        </h2>
+                        <p>If you have any questions, clarifications, or grievances regarding these Terms of Use or your enrollment, please reach out to our administrative team:</p>
+
+                        <div class="contact-box-grid">
+                            <div class="contact-box-item">
+                                <i class="fas fa-building"></i>
+                                <div>
+                                    <h6>Institution</h6>
+                                    <p>Sri RR Academy</p>
+                                </div>
+                            </div>
+                            <div class="contact-box-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h6>Campus Address</h6>
+                                    <p>16 & 17, AR Plaza, E, Basement, North Veli Street, Simmakkal, Madurai - 625 001</p>
+                                </div>
+                            </div>
+                            <div class="contact-box-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h6>Phone Numbers</h6>
+                                    <p><a href="tel:+919751699922">+91 97516 99922</a><br><a href="tel:+919003244002">+91 90032 44002</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-box-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h6>Email Address</h6>
+                                    <p><a href="mailto:support@srirracademy.com">support@srirracademy.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-box-item">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <h6>WhatsApp Helpline</h6>
+                                    <p><a href="https://wa.me/919003244002" target="_blank">+91 90032 44002</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-box-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <div>
+                                    <h6>Privacy Policy</h6>
+                                    <p><a href="privacy-policy.html">View Privacy Policy</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <div class="brand-footer">
+                            <div class="logo-container logo-container--img" aria-label="Sri RR Academy logo">
+                                <img src="assets/image/logo.png" alt="Sri RR Academy">
+                            </div>
+                            <div>
+                                <div class="brand-name">Sri RR Academy</div>
+                                <small style="color: rgba(255,255,255,0.6);">Read and Rule</small>
+                            </div>
+                        </div>
+                        <p>Sri RR Academy is Tamil Nadu's premier coaching institute for government competitive exams. With 15+ years of experience and 250+ successful placements, we are committed to making your dreams come true.</p>
+                        <div class="social-links-footer">
+                            <a href="https://www.facebook.com/srirracademy" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/srirracademy" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@SRIRRACADEMY" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="aboutus.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h3>Courses</h3>
+                        <ul>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> TNPSC</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> RRB</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Banking</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> SSC</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Police</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h3>Contact Info</h3>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> 16 & 17, AR Plaza, E, Basement Floor, North Veli Street, Simmakkal, Madurai 625 001</li>
+                            <li><i class="fas fa-phone"></i> +91 97516 99922</li>
+                            <li><i class="fas fa-envelope"></i> support@srirracademy.com</li>
+                            <li><i class="fas fa-clock"></i> Mon-Sun: 9 AM - 9 PM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sri RR Academy. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Actions: WhatsApp + Call (left) -->
+    <div class="floating-actions" aria-label="Quick contact actions">
+        <a href="https://wa.me/919003244002" class="floating-btn floating-btn--whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+919751699922" class="floating-btn floating-btn--call" aria-label="Call now">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Back to Top (right) -->
+    <button type="button" class="back-to-top" id="backToTop" aria-label="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
